@@ -27,3 +27,6 @@ for course in canvas.get_courses()
 
 * Getting Started:
 [community docs](https://community.canvaslms.com/docs/DOC-14390-canvas-apis-getting-started-the-practical-ins-and-outs-gotchas-tips-and-tricks#jive_content_id_Can_anyone_use_the_APIs)
+
+* Canvas Developers:
+https://community.canvaslms.com/groups/canvas-developers
