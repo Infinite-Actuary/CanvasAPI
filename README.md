@@ -1,10 +1,26 @@
 # Canvas API
 
-* Beta Environment
+* Beta Environment:
 https://unl.beta.instructure.com/
 
-* Live API
+* Live API:
 https://unl.instructure.com/doc/api/live
 
-* `canvasapi` a Python API wrapper for Canvas
+* `canvasapi` a Python API wrapper for Canvas:
 https://github.com/ucfopen/canvasapi
+
+```python
+from canvasapi import Canvas
+
+# user access token
+token = 'your_token'
+base_url = 'https://canvas.unl.edu'
+
+canvas = Canvas(base_url, token)
+
+user = canvas.get_current_user()
+print(user)
+
+for course in canvas.get_courses()
+  print(course)
+```
