@@ -21,7 +21,7 @@ canvas = Canvas(base_url, token)
 user = canvas.get_current_user()
 print(user)
 
-for course in canvas.get_courses()
+for course in canvas.get_courses():
   print(course)
 ```
 
