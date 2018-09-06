@@ -9,6 +9,8 @@ https://unl.instructure.com/doc/api/live
 * `canvasapi` a Python API wrapper for Canvas:
 https://github.com/ucfopen/canvasapi
 
+### Example: List Courses
+
 ```python
 from canvasapi import Canvas
 
